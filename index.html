@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forms</title>
+		<link rel="stylesheet" href="styles-jsdemo.css">
+	</head>
+	<!-- Script tags are used to embed javascript-->
+	
+	<script type="text/javascript">
+		// Comment in JS
+		var num1;
+		//num1=prompt("Enter your number");
+		var numInteger = parseInt(num1); // parsing my string to an integer
+		
+		var result = numInteger + numInteger
+		//alert("Addition for num1 + num1: " + result);
+		
+		//multiply
+		result = numInteger * numInteger;
+		//alert("Multiplication for num1 * num1:  " + result);
+		
+		//divide
+		
+		//subtract
+		
+		
+		var age; // declare vars
+		var speed;
+		
+		//taking in and parsing numbers 
+		age = parseInt(prompt("Enter your age"));
+		n2 = parseInt(prompt("Enter speed"));
+		
+		//IF statement, selection statement 
+		if((age < 18) || (speed > 80)){
+			//when the condition evaulates to true when this is executed 
+			document.write("<br/>You have 2 penalty points"); // runs this code 
+		}
+		
+		if((age < 18) && (speed > 80)){
+			//when the condition evaulates to true when this is executed 
+			document.write("<br/>You have 2 penalty points"); // runs this code 
+		}
+		
+		
+		document.write("<br />outside the IF statement");
+		
+		//name = prompt("Give us your name")
+		//prompt box allows me to take data from the user 
+		// But i need to save it somewhere - a variable
+		//alert("Welcome" + name); //I have concatonated the name 
+		//document.write("Ans:" + result); //concatonation
+
+		//document.write("<br>Hello World!");
+		//confirm("Confirm your a nonce")
+		//alert("You have a white van and dirty mattress");
+	</script>
+
+
+	<body onload= "hello()">
+	
+	</body>
+</html>	
